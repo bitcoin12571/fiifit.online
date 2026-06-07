@@ -1,5 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { PAID_CLIENTS } from '@/app/api/webhooks/stripe/route';
+
+// In-memory database for paid clients
+const PAID_CLIENTS: Record<string, any> = {};
 
 export async function GET(request: NextRequest) {
   try {
