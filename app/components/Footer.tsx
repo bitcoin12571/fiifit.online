@@ -33,7 +33,6 @@ export default function Footer() {
             <ul className="space-y-2 text-gray-300">
               <li><Link href="/despre" className="hover:text-emerald-300 font-semibold transition">Despre noi</Link></li>
               <li><Link href="/contact" className="hover:text-emerald-300 font-semibold transition">Contact</Link></li>
-              <li><Link href="/blog" className="hover:text-emerald-300 font-semibold transition">Blog</Link></li>
             </ul>
           </div>
 
@@ -43,7 +42,6 @@ export default function Footer() {
             <ul className="space-y-2 text-gray-300">
               <li><Link href="/termeni" className="hover:text-emerald-300 font-semibold transition">Termeni și Condiții</Link></li>
               <li><Link href="/confidentialitate" className="hover:text-emerald-300 font-semibold transition">Politica Confidențialitate</Link></li>
-              <li><Link href="/contact-legal" className="hover:text-emerald-300 font-semibold transition">Contact Legal</Link></li>
             </ul>
           </div>
         </div>
